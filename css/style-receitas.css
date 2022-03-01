@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0 auto;
+    min-width:1000px;
+    max-width:2000px;
+}
+
+header{
+    background-color: rgb(255, 193, 7);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px -4px 13px 0px;
+}
+
+header a{
+    margin: 0 auto;
+}
+
+.navigation{
+    background-color: rgb(231, 181, 87);
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navigation ul{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px; /* é a margin dentro do flex */
+    list-style: none;
+}
+
+.navigation__itens a{
+    text-decoration: none;
+    color: white;    
+}
+
+.menu{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 80px auto;
+}
+
+h2{
+    width: 87.97%;
+    margin-bottom: 5px;
+    color:rgb(231, 181, 87);
+    margin-bottom: 20px;
+}
+
+.menu img{
+    width: 70%;
+    margin-top: 0px;
+    margin: 0 auto;
+}
+
+.main__receita{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px; 
+}
+
+.main__receita p{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main__receita button{
+    background-color: green;
+    color: white;
+    width: 45%;
+    padding: 5px;
+    border: none;
+    margin:0 auto;
+    margin-top: 10px;
+    font-size: 20px;
+    vertical-align: center;
+}
+
+.rodape{
+    background-color: rgb(255, 193, 7);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rodape p{
+    color: white;
+    font-size: 24px;
+    width: 33%;
+    padding: 0 5px;
+    margin: auto 0;
+}
